@@ -15,7 +15,7 @@ Este proyecto implementa un **flujo básico de autenticación** utilizando Ionic
   - Se guarda el token en `localStorage`
   - Se navega al Home protegido
 
-### 🛡 Protección de rutas (AuthGuard)
+### Protección de rutas (AuthGuard)
 - `/home` está protegido mediante un guard (`authGuard`)
 - Si no hay token → redirige automáticamente a `/login`
 - Si hay token → acceso permitido
